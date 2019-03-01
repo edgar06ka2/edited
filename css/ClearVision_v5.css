@@ -17,7 +17,7 @@ ________/\\\\\\\\\__/\\\\\\_________________________________________________/\\\
          _______\/////////__\/////////____\//////////___\////////\//__\///________________\///________\///__\//////////__\///_____\/////_____\///____\///__
 */
 .channels-wrap > [class*="container"]:last-child::after {
-    content: "ClearVision v5.2.5";
+    content: "ClearVision v5.3 edited by edgar06ka";
     color: #00000000;
     font-size: 11px;
     font-weight: 700;
@@ -2695,7 +2695,7 @@ ul.bda-slist {
     color: #00000000;
 }
 .user-popout .body .section .label {
-    color: #00000000;
+    color: #00BFFF;
 }
 .user-popout .footer .update-notice {
     color: #00000000;
