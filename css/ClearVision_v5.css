@@ -505,7 +505,7 @@ _______/\\\\\___________________________________________________________________
     color: var(--main-color);
 }
 .need-help-modal .footer {
-    background-color: rgba(0, 0, 0, 0.88);
+    background-color: rgba(0, 0, 0, 0);
     border-top: none;
 }
 .need-help-modal .header {
@@ -520,16 +520,16 @@ _______/\\\\\___________________________________________________________________
 }
 .settings .settings-inner {
     background-color: rgba(0, 0, 0, 0) !important;
-    color: #999;
+    color: #00000000;
 }
 .notification-settings-modal .mute-server .checkbox .label {
-    color: #fff;
+    color: #00000000;
 }
 .notification-settings-modal .settings-section {
-    color: #fff;
+    color: #00000000;
 }
 .channel-notification-settings .content label {
-    color: #ABAAAA;
+    color: #00000000;
 }
 .channel-notification-settings {
     border-bottom: 1px solid hsla(0, 0%, 100%, .04);
@@ -542,7 +542,7 @@ _______/\\\\\___________________________________________________________________
     border-radius: 5px;
 }
 .chat .new-messages-bar button:last-child {
-    color: #fff;
+    color: #00000000;
 }
 .download-apps .platforms .platform.active .download-button,
 .change-log .changelog-fixed,
@@ -612,27 +612,27 @@ ld-channels ul .channel-voice-states li.speaking .avatar-small {
     background-color: var(--main-color) !important;
 }
 .region-select-modal {
-    background: rgba(0, 0, 0, 0.75);
+    background: rgba(0, 0, 0, 0);
 }
 .region-select-modal .region-select-modal-header {
     color: var(--main-color);
 }
 .region-select-modal .region-select-modal-option {
-    background-color: rgba(0, 0, 0, 0.48);
+    background-color: rgba(0, 0, 0, 0);
     border-color: transparent;
 }
 .region-select-modal .region-select-modal-option:hover {
     border-color: var(--main-color);
 }
 .form .radio-group .radio {
-    color: #fff;
+    color: #00000000;
 }
 .need-help-modal .header input[type=text] {
     -webkit-box-shadow: 0 2px 1px var(--main-color);
     box-shadow: 0 2px 1px var(--main-color);
 }
 .change-log {
-    background: rgba(0, 0, 0, 0.75);
+    background: rgba(0, 0, 0, 0.);
 }
 .change-log .header {
     color: var(--hover-color);
@@ -672,14 +672,14 @@ ld-channels ul .channel-voice-states li.speaking .avatar-small {
     color: #E6E6E6;
 }
 .form .form-header {
-    background: rgba(0, 0, 0, 0.85);
+    background: rgba(0, 0, 0, 0);
     border-bottom: 1px solid transparent;
 }
 .popout header {
     background-color: var(--main-color);
 }
 .popout section {
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0);
 }
 #rtc-connection-popout hr {
     border: 1px solid hsla(0, 0%, 100%, .04);
@@ -721,18 +721,18 @@ ld-channels ul .channel-voice-states li.speaking .avatar-small {
 }
 .clipboard-input-inner button {
     border-left: 1px solid hsla(0, 0%, 100%, 0.2);
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 0);
 }
 .clipboard-input-inner input {
     color: var(--hover-color);
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0);
 }
 .clipboard-input-inner {
     background: transparent;
     border: 1px solid transparent;
 }
 .clipboard-input-inner button:first-of-type::before {
-    background: linear-gradient(90deg, transparent, rgba(0, 0, 0, 0.3));
+    background: linear-gradient(90deg, transparent, rgba(0, 0, 0, 0));
 }
 ::selection,
 .clipboard-input-inner input::selection,
@@ -741,7 +741,7 @@ ld-channels ul .channel-voice-states li.speaking .avatar-small {
 .CodeMirror-line > span::selection,
 .CodeMirror-line > span > span::selection,
 .note textarea::selection {
-    color: #fff;
+    color: #00000000;
     background: var(--main-color);
 }
 .chat .welcome-message a,
@@ -756,7 +756,7 @@ ld-channels ul .channel-voice-states li.speaking .avatar-small {
     color: #F4F4F4;
 }
 #permissions .permission-actions>div {
-    background-color: #2E3136;
+    background-color: #00000000;
     border: 2px solid #2A2C31;
 }
 #settings-roles .roles header {
@@ -791,7 +791,7 @@ ld-channels ul .channel-voice-states li.speaking .avatar-small {
 }
 .instant-invites .instant-invite-buttons .btn.btn-danger {
     border: 1px solid var(--main-color);
-    color: #fff
+    color: #00000000
 }
 .instant-invites .instant-invite-buttons .btn.btn-danger:hover {
     background: var(--hover-color);
@@ -822,13 +822,13 @@ ld-channels ul .channel-voice-states li.speaking .avatar-small {
     border-top: 1px solid hsla(0, 0%, 100%, .04);
 }
 .guild-settings-modal-integrations .guild-settings-modal-integrations-header {
-    color: #CCCCCC;
+    color: #00000000;
     border-bottom: 1px solid hsla(0, 0%, 100%, 0.04);
     -webkit-box-shadow: none;
     box-shadow: none;
 }
 .guild-settings-modal-integrations .guild-settings-modal-integrations-body.no-integrations p {
-    color: rgb(220, 220, 220);
+    color: rgb(0, 0, 0, 0);
 }
 .guild-settings-modal-members .guild-settings-modal-list .member .member-username {
     color: #CECECE;
@@ -854,7 +854,7 @@ ld-channels ul .channel-voice-states li.speaking .avatar-small {
     border-bottom-color: var(--main-color);
 }
 .guild-settings-modal .guild-settings-modal-search {
-    border: 1px solid rgba(0, 0, 0, 0.4);
+    border: 1px solid rgba(0, 0, 0, 0);
 }
 .guild-settings-modal .guild-settings-modal-search:focus {
     border: 1px solid #24272b;
@@ -914,7 +914,7 @@ ld-channels ul .channel-voice-states li.speaking .avatar-small {
 }
 .message-group .comment .markup pre,
 .theme-dark .message-group .comment .markup pre {
-    background: rgba(0, 0, 0, 0.42);
+    background: rgba(0, 0, 0, 0);
     border: 2px solid hsla(0, 0%, 100%, 0.1);
     padding: 5px;
 }
@@ -934,7 +934,7 @@ ld-channels ul .channel-voice-states li.speaking .avatar-small {
 }
 #autocomplete-popout .row.selected,
 #autocomplete-popout .row:hover {
-    background: rgba(0, 0, 0, 0.85);
+    background: rgba(0, 0, 0, 0);
 }
 .download-apps .platforms .platform.active p {
     color: var(--main-color);
@@ -1031,7 +1031,7 @@ ld-channels ul .channel-voice-states li.speaking .avatar-small {
     color: #a6a6a6;
 }
 .sensitivity .slider .slider-bar-auto {
-    background-color: rgba(0, 0, 0, 0.44);
+    background-color: rgba(0, 0, 0, 0);
 }
 .sensitivity .slider .slider-bar-auto.speaking {
     background-color: var(--main-color);
@@ -1040,8 +1040,8 @@ ld-channels ul .channel-voice-states li.speaking .avatar-small {
     border-bottom: 1px solid hsla(0, 0%, 100%, 0.04);
 }
 .user-settings-modal-connections .user-settings-modal-accounts-list .connect-container .btn {
-    background: rgba(0, 0, 0, 0.57);
-    border: 2px solid rgba(0, 0, 0, 0.23);
+    background: rgba(0, 0, 0, 0);
+    border: 2px solid rgba(0, 0, 0, 0);
     background-repeat: no-repeat;
     background-position: 50%;
 }
@@ -1049,7 +1049,7 @@ ld-channels ul .channel-voice-states li.speaking .avatar-small {
     border-color: transparent;
 }
 .alert.form .form-inner .cancel {
-    background-color: rgba(0, 0, 0, 0.77) !important;
+    background-color: rgba(0, 0, 0, 0) !important;
     color: #949494;
     padding: 0 !important;
 }
@@ -1150,7 +1150,7 @@ textarea {
     margin-left: -5px;
 }
 .guilds li .guild-inner {
-    background: rgba(21, 21, 21, 0.41) !important;
+    background: rgba(0, 0, 0, 0) !important;
 }
 .guilds li .guild-inner a,
 .guilds li,
@@ -1168,10 +1168,10 @@ textarea {
 }
 .guilds li.audio .guild-inner::after {
     background-size: 12px;
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 0);
 }
 .guilds-separator::after {
-    background: rgba(28, 28, 28, 0.52) !important;
+    background: rgba(28, 28, 28, 0) !important;
 }
 .guilds li .guild-inner::before {
     left: -26px;
@@ -1185,13 +1185,13 @@ textarea {
 }
 .private-channels .search-bar .search-bar-inner,
 .private-channels .search-bar.search-bar-light .search-bar-inner {
-    background: rgba(0, 0, 0, 0.4) !important;
+    background: rgba(0, 0, 0, 0) !important;
 }
 .btn-hamburger {
     margin-right: -25px;
 }
 .btn-hamburger span {
-    background: rgb(221, 221, 221);
+    background: rgb(0, 0, 0, 0);
 }
 .account {
     background-repeat: no-repeat;
@@ -1208,7 +1208,7 @@ textarea {
     box-shadow: none !important;
 }
 .account .btn:active {
-    background: rgba(0, 0, 0, 0.26);
+    background: rgba(0, 0, 0, 0);
 }
 .account .btn-deafen,
 .account .btn-mute {
@@ -1219,12 +1219,12 @@ textarea {
     padding: 10px 20px 10px 18px !important;
 }
 #rtc-connection .btn {
-    background: rgba(0, 0, 0, 0.45);
+    background: rgba(0, 0, 0, 0);
     -webkit-box-shadow: none !important;
     box-shadow: none !important;
 }
 #rtc-connection .btn:active {
-    background: rgba(0, 0, 0, 0.6);
+    background: rgba(0, 0, 0, 0);
 }
 .account .btn-deafen,
 .account .btn-settings {
@@ -1255,7 +1255,7 @@ textarea {
     background-color: var(--hover-color);
 }
 .chat-empty {
-    background: rgba(20, 23, 27, 0.95);
+    background: rgba(0, 0, 0, 0);
 }
 .chat > .title-wrap > .topic {
     font-size: 12px;
@@ -1289,8 +1289,8 @@ textarea {
     padding: 0;
 }
 .chat > .content .messages .message-group .markup pre code.hljs {
-    background: rgba(0, 0, 0, 0.42) !important;
-    color: hsla(0, 0%, 100%, 0.7) !important;
+    background: rgba(0, 0, 0, 0) !important;
+    color: hsla(0, 0%, 100%, 0) !important;
     padding: 6px !important;
 }
 .chat > .content .messages .message-group .markup code.inline {
@@ -1338,10 +1338,10 @@ textarea {
     padding-top: 20px !important;
 }
 .friends-table .friends-row:hover {
-    background: rgba(0, 0, 0, 0.35) !important;
+    background: rgba(0, 0, 0, 0) !important;
 }
 .channel-members .member:hover {
-    background: hsla(0, 0%, 100%, 0.07) !important;
+    background: hsla(0, 0%, 100%, 0) !important;
 }
 .channel-members .member .member-username {
     font-size: 14px;
@@ -1447,7 +1447,7 @@ textarea {
     line-height: 17px;
 }
 .settings .settings-header {
-    background: rgba(0, 0, 0, 0.75);
+    background: rgba(0, 0, 0, 0);
 }
 .channel-notification-settings .content .content-inner {
     background: transparent !important;
@@ -1463,10 +1463,10 @@ textarea {
     background: var(--main-color) !important;
 }
 .create-guild-container .create-or-join .form-inner {
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 0);
 }
 .create-guild-container .action {
-    background: rgba(0, 0, 0, 0.58);
+    background: rgba(0, 0, 0, 0);
 }
 .create-guild-container .create-or-join .actions .or {
     color: #000;
@@ -1477,7 +1477,7 @@ textarea {
     background: transparent;
 }
 .form .form-inner {
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 0);
     color: hsla(0, 0%, 100%, .7);
 }
 .form header {
@@ -1487,7 +1487,7 @@ textarea {
 .form .control-group input[type=password],
 .form .control-group input[type=text],
 .form .control-group textarea {
-    background: rgba(0, 0, 0, 0.6);
+    background: rgba(0, 0, 0, 0);
     color: #D6D6D6;
     border-radius: 3px;
     padding: 0px 0px 0px 5px;
@@ -1506,11 +1506,11 @@ textarea {
     background: transparent;
 }
 .region-select .region-select-inner {
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0);
     border-color: transparent;
 }
 .region-select button {
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0);
     border-color: transparent;
     border-left: 1px solid hsla(0, 0%, 100%, 0.1);
     color: var(--main-color) !important;
@@ -1531,15 +1531,15 @@ textarea {
     border: none;
     background-repeat: no-repeat;
     background-size: cover;
-    -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, .5);
+    -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0);
     box-shadow: 0 0 5px rgba(0, 0, 0, .5);
 }
 .form .form-actions {
-    background-color: rgba(0, 0, 0, 0.85);
+    background-color: rgba(0, 0, 0, 0);
     border-top: 1px solid transparent;
 }
 .form .btn-default {
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0);
     padding: 10px !important;
     height: 35.5px;
     border-radius: 3px;
@@ -1571,7 +1571,7 @@ a:link {
     background: none;
 }
 .settings .settings-actions {
-    background-color: rgba(0, 0, 0, 0.76);
+    background-color: rgba(0, 0, 0, 0);
     border-top: 2px solid var(--main-color);
 }
 .mention {
@@ -1590,16 +1590,16 @@ a:link {
     color: #fff;
 }
 .user-settings-modal-connections .user-settings-modal-connections-list .connection .connection-integrations.no-integrations {
-    color: rgba(222, 222, 222, 0.59);
-    background-color: rgba(0, 0, 0, 0.38);
+    color: rgba(0, 0, 0, 0);
+    background-color: rgba(0, 0, 0, 0);
 }
 .user-settings-modal-connections .user-settings-modal-connections-list .connection .connection-integrations {
-    border: 2px solid rgba(0, 0, 0, 0.45);
+    border: 2px solid rgba(0, 0, 0, 0);
     border-top: transparent;
 }
 .user-settings-modal-connections .user-settings-modal-connections-list {
-    -webkit-box-shadow: 0 -1px rgba(0, 0, 0, 0.37);
-    box-shadow: 0 -1px rgba(0, 0, 0, 0.37);
+    -webkit-box-shadow: 0 -1px rgba(0, 0, 0, 0);
+    box-shadow: 0 -1px rgba(0, 0, 0, 0);
 }
 .tab-bar.TOP .tab-bar-item.selected,
 #user-profile-modal .tab-bar.TOP .tab-bar-item.selected {
@@ -1616,11 +1616,11 @@ a:link {
     border: 1px solid var(--main-color);
 }
 .radio .radio-inner {
-    background: rgba(0, 0, 0, 0.64);
+    background: rgba(0, 0, 0, 0);
     border: 2px solid var(--main-color);
 }
 .tab-bar.TOP {
-    border-bottom: 1px solid rgba(0, 0, 0, .4);
+    border-bottom: 1px solid rgba(0, 0, 0, 0);
 }
 #bd-ps-body table tr:nth-child(odd):hover {
     background-color: var(--main-color);
@@ -1647,7 +1647,7 @@ a:link {
     letter-spacing: .08em;
     font-weight: 700;
     padding: 4px 8px;
-    background-color: rgba(0, 0, 0, 0.48);
+    background-color: rgba(0, 0, 0, 0);
     border: 1px solid;
     border-color: transparent;
     border-radius: 3px;
@@ -1666,7 +1666,7 @@ a:link {
     color: var(--main-color);
 }
 .spoiler {
-    Background-color: rgba(125, 58, 114, 0.28);
+    Background-color: rgba(0, 0, 0, 0);
     border: 1px solid;
     border-color: transparent;
     border-radius: 6px;
@@ -1910,16 +1910,16 @@ a:link {
 .messages-wrapper .messages .message-group .comment .markup pre,
 .theme-dark .friends-table .messages .message-group .comment .markup pre,
 .theme-dark .messages-wrapper .messages .message-group .comment .markup pre {
-    background: rgba(46, 49, 54, 0.32);
+    background: rgba(0, 0, 0, 0);
     border-color: #282b30;
 }
 .channel-members .member.popout-open,
 .channel-members .member:hover {
-    background: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.3) 85%, transparent) !important;
+    background: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 85%, transparent) !important;
 }
 #friends .friends-header .tab-bar .tab-bar-item:hover:not(.selected),
 .theme-dark #friends .friends-header .tab-bar .tab-bar-item:hover:not(.selected) {
-    background: rgba(0, 0, 0, 0.29);
+    background: rgba(0, 0, 0, 0);
 }
 .friends-table .messages .message-group .comment .markup .mention:hover,
 .messages-wrapper .messages .message-group .comment .markup .mention:hover,
@@ -1939,20 +1939,20 @@ a:link {
     filter: none;
 }
 .channel-textarea-autocomplete-inner {
-    background: rgba(0, 0, 0, 0.84)!important;
+    background: rgba(0, 0, 0, 0)!important;
     border: none !important;
 }
 .channel-textarea-autocomplete-inner::after {
     display: none;
 }
 .channel-textarea-autocomplete-inner header {
-    background: rgba(0, 0, 0, 0.84)!important;
+    background: rgba(0, 0, 0, 0)!important;
     border-radius: 5px 5px 0 0;
     border: none !important;
 }
 .channel-textarea-autocomplete-inner ul li,
 .theme-dark .channel-textarea-autocomplete-inner ul li {
-    color: rgba(255,255,255,.6);
+    color: rgba(0,0,0,0);
 }
 .channel-textarea-autocomplete ul li.active {
     background: var(--main-color) !important;
@@ -1964,7 +1964,7 @@ a:link {
     color: hsla(0, 0%, 100%, 0.7) !important;
     margin-left: 8px !important;
     border-radius: 5px !important;
-    background: rgba(0, 0, 0, 0.19) !important;
+    background: rgba(0, 0, 0, 0) !important;
     font-weight: 700 !important;
     padding: 3px;
     -webkit-transition: all 0.2s ease-in-out !important;
@@ -1974,7 +1974,7 @@ a:link {
     transition: all 0.2s ease-in-out !important;
 }
 .discriminator:hover {
-    background: rgba(0, 0, 0, 0.32) !important;
+    background: rgba(0, 0, 0, 0) !important;
     color: #fff !important;
     font-size: 14px !important;
     font-weight: 700 !important;
@@ -2008,7 +2008,7 @@ div.control-group .shortcut-recorder input[type=text] {
 }
 .bot-tag,
 .bd-blue .bot-tag {
-    background: rgba(100, 100, 100, 0.3);
+    background: rgba(0, 0, 0, 0);
     color: hsla(0, 0%, 100%, 0.62) !important;
 }
 .bot-tag.bot-tag-invert {
@@ -2016,7 +2016,7 @@ div.control-group .shortcut-recorder input[type=text] {
     color: hsla(0, 0%, 100%, 0.7) !important;
     margin-left: 8px !important;
     border-radius: 5px !important;
-    background: rgba(0, 0, 0, 0.19) !important;
+    background: rgba(0, 0, 0, 0) !important;
     font-weight: 700 !important;
     padding: 3px;
 }
@@ -2048,7 +2048,7 @@ img.image {
     border-radius: 5px;
 }
 #rtc-connection .btn {
-    background: rgba(0, 0, 0, 0.45);
+    background: rgba(0, 0, 0, 0);
     -webkit-box-shadow: none !important;
     box-shadow: none !important;
     border-radius: 40px;
@@ -2056,13 +2056,13 @@ img.image {
 .account .btn-deafen,
 .account .btn-mute,
 .account .btn-settings {
-    background: rgba(0, 0, 0, 0.45);
+    background: rgba(0, 0, 0, 0);
     -webkit-box-shadow: none !important;
     box-shadow: none !important;
     border-radius: 40px;
 }
 #connecting {
-    background: rgba( 0, 0, 0, .80);
+    background: rgba( 0, 0, 0, 0);
 }
 #connecting video.ready {
     visibility: hidden;
@@ -2124,7 +2124,7 @@ img.image {
 }
 .markdown-modal .markdown-modal-header,
 .markdown-modal .markdown-modal-footer {
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(0, 0, 0, 0);
     border: none;
 }
 .markdown-modal .markdown-modal-header {
@@ -2150,10 +2150,10 @@ img.image {
     color: #fff;
 }
 .server-row {
-    background-color: rgba(0, 0, 0, 0.93);
+    background-color: rgba(0, 0, 0, 0);
 }
 .server-row:nth-child(odd) {
-    background-color: rgba(0, 0, 0, 0.85);
+    background-color: rgba(0, 0, 0, 0);
 }
 .server-info button {
     border-radius: 5px;
@@ -2174,7 +2174,7 @@ img.image {
 }
 #bd-customcss-attach-controls,
 #bd-customcss-detach-controls {
-    background: rgba(0, 0, 0, 0.8);
+    background: rgba(0, 0, 0, 0);
     -webkit-box-shadow: inset 0 1px 0 0 var(--main-color);
     border: none;
 }
