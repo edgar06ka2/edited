@@ -113,10 +113,10 @@ body::after {
 }
 @-webkit-keyframes cv-bg {
     0% {
-        background-color: rgba(0, 0, 0, .5);
+        background-color: rgba(0, 0, 0, .0);
     }
     72% {
-        background-color: rgba(0, 0, 0, .5);
+        background-color: rgba(0, 0, 0, .0);
     }
     100% {
         background-color: transparent;
@@ -124,10 +124,10 @@ body::after {
 }
 @keyframes cv-bg {
     0% {
-        background-color: rgba(0, 0, 0, .5);
+        background-color: rgba(0, 0, 0, .0);
     }
     72% {
-        background-color: rgba(0, 0, 0, .5);
+        background-color: rgba(0, 0, 0, .0);
     }
     100% {
         background-color: transparent;
@@ -140,7 +140,7 @@ body::after {
     right: 0;
     bottom: 0;
     left: 0;
-    color: #fff;
+    color: #00000000;
     font-size: 50px;
     font-weight: 700;
     text-align: center;
@@ -360,7 +360,7 @@ body::after {
     height: 14px;
     padding: 1px 2px;
     border-radius: 3px;
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0);
     color: hsla(0, 0%, 100%, 0.8);
     font-size: 10px;
     text-align: center;
@@ -380,7 +380,7 @@ body::after {
 .guild-settings-modal-members .avatar-small[style*='81388395867156480'] + .member-inner .member-username::after,
 .message-group .avatar-large[style*='81388395867156480'] + .comment .user-name::after {
     position: relative;
-    background: rgba(100, 100, 100, 0.3);
+    background: rgba(0, 0, 0, 0);
     color: hsla(0, 0%, 100%, 0.6);
     margin-left: 6px;
 }
@@ -402,7 +402,7 @@ body::after {
 }
 .avatar-popout[style*='144881947557101568']:hover::after,
 .avatar-popout[style*='81388395867156480']:hover::after {
-    color: #fff;
+    color: #00000000;
     font-size: 20px;
     padding: 5px 4px;
     top: 2.5%;
@@ -410,7 +410,7 @@ body::after {
 }
 .avatar-profile[style*='144881947557101568']::after,
 .avatar-profile[style*='81388395867156480']::after {
-    background: rgba(0, 0, 0, 0.3);
+    background: rgba(0, 0, 0, 0);
     padding: 3px;
     font-size: 15px;
     top: -5%;
@@ -488,11 +488,11 @@ _______/\\\\\___________________________________________________________________
         ______\/////_______\///___\///___\///__\///____\///__\///__\//////////_____\////////__\///____\//////////__\///____\///__\///______\/////____
 */
 .slider-bar {
-    background: rgba(0, 0, 0, 0.44);
+    background: rgba(0, 0, 0, 0);
 }
 .slider-handle,
 .slider-handle span {
-    background-color: rgb(21, 21, 21);
+    background-color: rgb(0, 0, 0);
 }
 .create-guild-container .join-server .link-container input {
     border: 1px solid var(--main-color);
@@ -519,7 +519,7 @@ _______/\\\\\___________________________________________________________________
     color: var(--main-color);
 }
 .settings .settings-inner {
-    background-color: rgba(0, 0, 0, 0.70) !important;
+    background-color: rgba(0, 0, 0, 0) !important;
     color: #999;
 }
 .notification-settings-modal .mute-server .checkbox .label {
