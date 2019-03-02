@@ -7611,10 +7611,10 @@ img:not(.emote):not(.emoji)::before {
 
 /* OLD CHECKBOX */
 .checkbox .checkbox-inner {
-    width: 35px;
-    height: 18px;
+    width: 0px;
+    height: 0px;
     background: rgba(0, 0, 0, 0);
-    border-radius: 10px;
+    border-radius: 0px;
     left: 0px;
 }
 .checkbox .checkbox-inner input[type=checkbox] + span::after {
@@ -7635,18 +7635,18 @@ img:not(.emote):not(.emoji)::before {
     transform: rotate(0deg) !important;
 }
 .checkbox .checkbox-inner input[type=checkbox]:checked + span::after {
-    margin-left: 15px !important;
+    margin-left: 0px !important;
 }
 .checkbox .checkbox-inner input[type=checkbox] + span {
     width: 0px;
     background-color: transparent !important;
-    border-radius: 10px;
+    border-radius: 0px;
     border: none !important;
     -webkit-transition: all .2s ease-in-out !important;
     transition: all .2s ease-in-out !important;
 }
 .checkbox .checkbox-inner input[type=checkbox]:checked + span {
-    width: 35px;
+    width: 0px;
     background-color: var(--main-color) !important;
 }
 .checkbox .checkbox-inner.alt {
@@ -7668,8 +7668,8 @@ img:not(.emote):not(.emoji)::before {
 }
 .ui-switch,
 .ui-switch-checkbox {
-    width: 35px;
-    height: 18px;
+    width: 0px;
+    height: 0px;
 }
 .ui-switch,
 .ui-switch::before {
@@ -7678,7 +7678,7 @@ img:not(.emote):not(.emoji)::before {
 }
 .ui-switch {
     background: rgba(0, 0, 0, 0) !important;
-    border-radius: 10px;
+    border-radius: 0px;
     box-shadow: none !important;
 }
 .ui-switch-checkbox:checked + .ui-switch {
@@ -7688,8 +7688,8 @@ img:not(.emote):not(.emoji)::before {
     top: 0;
     left: 0 !important;
     bottom: 0;
-    width: 18px !important;
-    height: 18px !important;
+    width: 0px !important;
+    height: 0px !important;
     background: #00000000 !important;
     border-radius: 100% !important;
     -webkit-box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0);
