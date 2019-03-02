@@ -6873,8 +6873,8 @@ pre:hover .copybutton {
     border-color: transparent !important;
 }
 .message-group-blocked {
-    border-top: 1px solid hsla(0, 0%, 100%, .04) !important;
-    border-bottom: 1px solid hsla(0, 0%, 100%, .04) !important;
+    border-top: 0px solid hsla(0, 0%, 100%, .04) !important;
+    border-bottom: 0px solid hsla(0, 0%, 100%, .04) !important;
 }
 .message-group-blocked .message-group-blocked-btn {
     color: hsla(0, 0%, 100%, .3) !important;
@@ -7691,15 +7691,15 @@ img:not(.emote):not(.emoji)::before {
     width: 0px !important;
     height: 0px !important;
     background: #00000000 !important;
-    border-radius: 100% !important;
-    -webkit-box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0);
-    box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0);
+    border-radius: 0% !important;
+    -webkit-box-shadow: 0 0 0px 0px rgba(0, 0, 0, 0);
+    box-shadow: 0 0 0px 0px rgba(0, 0, 0, 0);
     -webkit-transform: none !important;
     transform: none !important;
 }
 .ui-switch-checkbox:checked + .ui-switch::before {
-    left: 100% !important;
-    margin-left: -18px;
+    left: 0% !important;
+    margin-left: -0px;
 }
 .connection .ui-switch {
     box-shadow: 0 0 1px rgba(0, 0, 0, 0) !important;
@@ -7714,8 +7714,8 @@ img:not(.emote):not(.emoji)::before {
 }
 .guilds-wrapper {
     background: transparent;
-    -webkit-box-shadow: inset -10px 0px 20px -10px rgba(0, 0, 0, 0);
-    box-shadow: inset -10px 0px 20px -10px rgba(0, 0, 0, 0);
+    -webkit-box-shadow: inset -0px 0px 0px -0px rgba(0, 0, 0, 0);
+    box-shadow: inset -0px 0px 0px -0px rgba(0, 0, 0, 0);
 }
 .channels-wrap {
     background: rgba(0, 0, 0, 0);
